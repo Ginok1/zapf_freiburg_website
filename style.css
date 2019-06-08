@@ -1,0 +1,290 @@
+/* Version V_2
+
+Website hat adaptive Breite.
+Bei schmaler Bildschirmauflösung verschwindet das Logo
+
+
+*/
+/* Allgemeines */
+
+body {
+    background-color: black;
+    letter-spacing: 0.3px;
+    width: 100vw;
+    height:100%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    overflow-x:hidden;
+}
+
+/* Strukturen */
+#wrapper{
+    width: 90%; 
+    margin: 0;
+    margin-top: 10px;
+    float: left;
+    background-color: #fff;
+}
+.seitenstreifen{
+    background-color: black;
+    width: 5%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+#header {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#leiste {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+#content {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 0;
+    padding: 10px 20px;
+    overflow: hidden;
+    line-height: 24px;
+}
+
+#footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding:10px;
+    text-align: right;
+}
+
+/* Kopfzeile */
+
+#logo {
+    width: 25%;
+    float:left;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background-color: #fff;
+}
+
+.uberschrift {
+    float: left;
+    width: 75%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+#uberdate {
+    text-align: right;
+    margin: 10px 30px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+/* Navigationsleiste */
+
+#navigationsleiste {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#navigationsleiste li {
+    float: left;
+}
+
+#navigationsleiste li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navigationsleiste li a:hover{
+    background-color: #eee;
+    color: #000;
+}
+
+.activenav {
+    background-color: #666;
+}
+
+/* Home */
+
+.panorama {
+    width:calc(100% + 40px);
+    box-sizing: border-box;
+    margin: -10px -20px;
+    margin-bottom: -17px;
+}
+/* News */
+
+#topnews{
+    width:27%;
+    margin-right: 3%;
+    padding:10px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: #990000;
+    border-radius: 15px;
+    float: left;
+    background-color: #f6f0e9;
+    font-size: 20px;
+}
+
+#normalnews{
+    width:70%;
+    box-sizing: border-box;
+    float:left;
+}
+
+.post{
+    border:1px solid;
+    border-radius: 20px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #f6f0e9;
+}
+
+.container{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.newsuberschrift{
+    float:left;
+    width:85%;
+    margin: 7px 0px;
+    font-size: 22px;
+}
+
+.newsdatum{
+    float: left;
+    width:15%;
+    margin:7px 0px;
+    text-align: right;
+}
+
+/* Wo ist was */
+
+#basicMap {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+}
+
+.provisorischekarte{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*Tabellen*/
+table, td, th{    
+    padding: 7px;
+}
+
+table{
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid;
+    border-color: #3a120c;
+     border-collapse: collapse;
+}
+th{
+    background-color: #444;
+    color: #fff;
+}
+
+tr:nth-child(odd){
+    background-color: #eee;
+}
+tr:nth-child(even){
+    background-color: #fff;
+}
+
+/*Impressum und Datenschutz */
+
+.leftbound {
+    text-align: left;
+}
+
+.rightbound {
+    text-align: right;
+}
+
+.centerbound {
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+/* Fußzeile */
+
+#footer a:any-link{
+    color: #fff;
+}
+#footer a:link{
+    color: #fff;
+}
+#footer a:visited{
+    color: #fff;
+}
+
+/* responsives zeug */
+
+@media only screen and (max-width: 1016px) {
+    #logo{
+        display: none;
+    }
+    .uberschrift{
+        width: 100%;
+    }
+    h1{
+        margin-left: 10px;
+    }
+}
+
+a:link{
+    text-decoration: none;
+    color: #AA2d20;
+}
+a:visited{
+    color:#922d20;
+}
+a:hover{
+    text-decoration: underline;
+    color: #b00;
+}
+a:active{
+    color: #E70000;
+}
