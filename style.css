@@ -206,6 +206,36 @@ h1 {
     box-sizing: border-box;
 }
 
+/* Anmeldung */
+
+.wichtig{
+    background-color: #666;
+    border-color: #E70000;
+}
+
+
+/* Unterstützer */
+
+.unterstützer{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.unterstützer_bild_breit{
+    box-sizing: border-box;
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 2%;
+}
+
+.unterstützer_bild_schmal{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
 /*Tabellen*/
 table, td, th{    
     padding: 7px;
