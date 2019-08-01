@@ -32,6 +32,7 @@ body {
     padding: 0px;
     margin: 0px;
     float: left;
+    visibility: hidden;
 }
 
 #header {
@@ -193,6 +194,19 @@ h1 {
     text-align: right;
 }
 
+/* Programm */
+
+.neben_tagungsprogramm{
+    float: left;
+    width: 5%;
+    visibility: hidden;
+}
+
+#tagungsprogramm{
+    float: left;
+    width: 90%;
+}
+
 /* Wo ist was */
 
 #basicMap {
@@ -209,8 +223,17 @@ h1 {
 /* Anmeldung */
 
 .wichtig{
-    background-color: #666;
-    border-color: #E70000;
+    background-color: #f6f0e9;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 35%;
+}
+
+.unsichtbar{
+    visibility: hidden;
 }
 
 
