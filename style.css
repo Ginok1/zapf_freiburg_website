@@ -207,6 +207,17 @@ h1 {
     width: 90%;
 }
 
+/* Merch */
+
+.oberkörpergrößen{
+    width:40%;
+}
+
+#jogging_sizes{
+    box-sizing: border-box;
+    width: 80%;
+}
+
 /* Wo ist was */
 
 #basicMap {
@@ -299,6 +310,10 @@ tr:nth-child(even){
 
 h2{
     text-align: left;
+}
+
+h3{
+    text-indent: 20px;
 }
 
 /* Fußzeile */
