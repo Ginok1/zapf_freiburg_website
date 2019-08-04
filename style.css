@@ -172,6 +172,7 @@ h1 {
     padding: 15px;
     overflow: hidden;
     background-color: #f6f0e9;
+    margin-bottom: 20px;
 }
 
 .container{
@@ -209,13 +210,21 @@ h1 {
 
 /* Merch */
 
-.oberkörpergrößen{
-    width:40%;
+.modelfoto{
+    height: 380px;
+}
+
+.modelfoto_breit{
+    width: 100%;
+}
+
+.großentabelle{
+    background-color: #eee;
 }
 
 #jogging_sizes{
     box-sizing: border-box;
-    width: 80%;
+    width: 100%;
 }
 
 /* Wo ist was */
@@ -341,6 +350,22 @@ h3{
         margin-left: 10px;
     }
 }
+
+@media only screen and (max-width: 930px) {
+    .modelfoto{
+        width: 100%;
+        height:auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .großentabelle{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Links */
 
 a:link{
     text-decoration: none;
