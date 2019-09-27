@@ -147,7 +147,7 @@ h1 {
 }
 /* News */
 
-#topnews{
+.topnews{
     width:27%;
     margin-right: 3%;
     padding:10px;
@@ -298,6 +298,14 @@ h1 {
     height: auto;
 }
 
+.unterstützer_add_padding{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    height: auto;
+    padding: 4%;
+}
+
 /*Tabellen*/
 table, td, th{    
     padding: 7px;
@@ -385,7 +393,7 @@ h3{
 }
 
 @media only screen and (max-width: 800px) {
-    #topnews{
+    .topnews{
         width: 100%;
         margin: 0px;
     }
