@@ -259,6 +259,29 @@ h1 {
     box-sizing: border-box;
 }
 
+/* Helfer */
+.helferol{
+    list-style-type: decimal;
+}
+
+.helferul li{
+    list-style-type: disc;
+    counter-increment: unset;
+    margin-bottom: 8px;
+}
+
+/* Ueber uns*/
+
+.oktopodenliste li{
+    margin-bottom: 16px;
+}
+
+.oktopus{
+    font-size: 110%;
+}
+
+
+
 /* Anmeldung */
 
 .wichtig{
