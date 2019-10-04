@@ -280,6 +280,10 @@ h1 {
     font-size: 110%;
 }
 
+.otto{
+    box-sizing: border-box;
+    width: 100%;
+}
 
 
 /* Anmeldung */
@@ -326,7 +330,15 @@ h1 {
     float: left;
     width: 20%;
     height: auto;
-    padding: 4%;
+    padding: 3.5%;
+}
+
+.zeiss{
+    box-sizing: border-box;
+    float: left;
+    width: 15%;
+    height: auto;
+    padding: 1.7%;
 }
 
 /*Tabellen*/
